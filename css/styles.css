@@ -1,5 +1,6 @@
 body {
-    font-family: "Roboto",
+    font-family: "Roboto", 'Open Sans',
+        'Noto Sans',
         sans-serif;
     ;
     color: #2E2F42;
@@ -15,12 +16,107 @@ ol {
     list-style: none;
 }
 
+.nav-studio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-studio:hover {
+    color: #404bbf;
+}
+
+.nav-studio:active {
+    color: #404bbf;
+}
+
+.nav-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-portfolio:hover {
+    color: #404bbf;
+}
+
+.nav-contacts {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-contacts:hover {
+    color: #404bbf;
+}
+
+.contact-mail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-mail:focus {
+    color: #404bbf;
+}
+
+.contact-mail:hover {
+    color: #404bbf;
+}
+
+.contact-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-tel:focus {
+    color: #404bbf;
+}
+
+.contact-tel:hover {
+    color: #404bbf;
+}
+
+.button-order {
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    color: #fff;
+}
+
+.button-order:hover {
+    background: #404bbf;
+}
+
+.button-order:focus {
+    background: #404bbf;
+
+}
+
+.button-order {
+    cursor: pointer;
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
 
     /* line-height: 40px; */
-    line-height: 111%;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -31,17 +127,14 @@ ol {
     font-size: 20px;
 
     /* line-height: 24px; */
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
 .portfolio-item-text {
-    font-weight: 400;
     font-size: 16px;
-
-    /* line-height: 24px; */
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
