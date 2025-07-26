@@ -57,7 +57,7 @@ ol {
     color: #404bbf;
 }
 
-.contact-mail {
+.contact {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -65,27 +65,11 @@ ol {
     color: #434455;
 }
 
-.contact-mail:focus {
+.contact:focus {
     color: #404bbf;
 }
 
-.contact-mail:hover {
-    color: #404bbf;
-}
-
-.contact-tel {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contact-tel:focus {
-    color: #404bbf;
-}
-
-.contact-tel:hover {
+.contact:hover {
     color: #404bbf;
 }
 
