@@ -1,10 +1,7 @@
 body {
-    font-family: "Roboto", 'Open Sans',
-        'Noto Sans',
-        sans-serif;
-    ;
-    color: #2E2F42;
-    background-color: #E7E9FC;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -89,11 +86,6 @@ ol {
 }
 
 .button-order {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     color: #fff;
 }
